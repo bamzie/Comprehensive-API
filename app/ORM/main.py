@@ -1,15 +1,14 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import modelsORM
-from database import engine
+from database import engine 
 import routers.post as post
-import routers.users as users
+import routers.users as users  
 import routers.auth as auth
 import routers.vote as vote
-from config import settings
+from config import settings 
  
-
+  
 # print(settings.database_username)
 
 # This is the code the creates our table

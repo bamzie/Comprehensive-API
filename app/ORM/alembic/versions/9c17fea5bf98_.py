@@ -15,7 +15,7 @@ down_revision = 'd020d9fdc304'
 branch_labels = None
 depends_on = None
 
-
+ 
 def upgrade() -> None:
     op.add_column('posts', sa.Column('published', sa.Boolean,
                     nullable = False, server_default = 'TRUE'))

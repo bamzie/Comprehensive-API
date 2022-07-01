@@ -1,4 +1,4 @@
-from pydantic import BaseSettings
+from pydantic import BaseSettings 
 
  ############################################
  # This will setup our database enviroment

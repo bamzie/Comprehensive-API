@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from config import settings
+from app.ORM.config import settings
 
 # Connects to our database
 # Right now this is running on our localmachine

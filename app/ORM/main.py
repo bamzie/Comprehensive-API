@@ -1,10 +1,10 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware 
-import app.ORM.routers.post as post
-import app.ORM.routers.users as users  
-import app.ORM.routers.auth as auth
-import app.ORM.routers.vote as vote
+import routers.post as post
+import routers.users as users  
+import routers.auth as auth
+import routers.vote as vote
   
 # print(settings.database_username)
 

@@ -1,5 +1,5 @@
 from sqlalchemy import TIMESTAMP, Column, ForeignKey, Integer, String, Boolean, text
-from app.ORM.database import Base
+from database import Base
 from sqlalchemy.orm import relationship
 
 

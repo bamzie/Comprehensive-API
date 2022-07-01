@@ -2,7 +2,7 @@ from turtle import pos
 from typing import List, Optional
 from sqlalchemy.orm import Session
 from sqlalchemy import func
-import app.ORM.modelsORM
+import modelsORM
 from schema import PostCreate, Post, PostOut
 from fastapi import Depends, HTTPException, status, Response, APIRouter
 from database import engine, get_db
